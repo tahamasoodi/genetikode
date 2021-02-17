@@ -1,6 +1,6 @@
 /**
-* Template Name: Arsha - v3.0.0
-* Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
+* Template Name: Taha - v3.0.0
+* Template URL: https://bootstrapmade.com/Taha-free-bootstrap-html-template-corporate/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
