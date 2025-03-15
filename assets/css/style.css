@@ -1850,4 +1850,36 @@ section {
   #footer .credits {
     padding-top: 4px;
   }
+
+<head>
+  <style>
+    #alert-banner {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: red;
+      color: white;
+      padding: 10px;
+      font-weight: bold;
+      text-align: center;
+      font-size: 16px;
+      white-space: nowrap;
+      overflow: hidden;
+      z-index: 1000;
+      animation: slideText 8s linear infinite;
+    }
+
+    @keyframes slideText {
+      from {
+        transform: translateX(-100%);
+      }
+      to {
+        transform: translateX(100%);
+      }
+    }
+  </style>
+</head>
+
+  
 }
