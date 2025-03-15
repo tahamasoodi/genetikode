@@ -16,6 +16,36 @@
     }
   });
 
+
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    let text = document.getElementById("alert-text");
+
+    // Duplicate text to create a continuous scroll effect
+    text.innerHTML += " &nbsp;&nbsp;&nbsp;&nbsp; " + text.innerHTML;
+
+    let position = window.innerWidth;
+
+    function moveText() {
+      position -= 2; // Speed of movement
+      text.style.transform = `translateX(${position}px)`;
+
+      // Reset position when it moves completely off-screen
+      if (position < -text.offsetWidth / 2) {
+        position = window.innerWidth;
+      }
+
+      requestAnimationFrame(moveText);
+    }
+
+    moveText();
+  });
+</script>
+
+
+  
   // Smooth scroll for the navigation menu and links with .scrollto classes
   var scrolltoOffset = $('#header').outerHeight() - 2;
   $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function(e) {
