@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">PrecisionAI Product Visual</title>
+  <desc id="desc">Genetikode PrecisionAI platform visual for AI genomic analysis and ACMG interpretation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#123847"/>
+      <stop offset="50%" stop-color="#0e5f67"/>
+      <stop offset="100%" stop-color="#12495b"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f0c06d" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#f08a2f" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#f0c06d" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7a0f42"/>
+      <stop offset="100%" stop-color="#bf4c7b"/>
+    </linearGradient>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <circle cx="280" cy="160" r="260" fill="#58c4ca" fill-opacity="0.12"/>
+  <circle cx="1390" cy="110" r="220" fill="#f08a2f" fill-opacity="0.14"/>
+  <circle cx="1380" cy="910" r="290" fill="#7a0f42" fill-opacity="0.12"/>
+
+  <g stroke="#8ed8dc" stroke-opacity="0.28" stroke-width="2">
+    <line x1="120" y1="840" x2="520" y2="580"/>
+    <line x1="280" y1="860" x2="680" y2="610"/>
+    <line x1="520" y1="850" x2="860" y2="650"/>
+    <line x1="760" y1="830" x2="1120" y2="630"/>
+    <line x1="960" y1="860" x2="1370" y2="640"/>
+  </g>
+  <g fill="#8ed8dc" fill-opacity="0.32">
+    <circle cx="120" cy="840" r="7"/>
+    <circle cx="280" cy="860" r="8"/>
+    <circle cx="520" cy="850" r="9"/>
+    <circle cx="760" cy="830" r="8"/>
+    <circle cx="960" cy="860" r="9"/>
+    <circle cx="1370" cy="640" r="8"/>
+    <circle cx="520" cy="580" r="8"/>
+    <circle cx="680" cy="610" r="9"/>
+    <circle cx="860" cy="650" r="8"/>
+    <circle cx="1120" cy="630" r="9"/>
+  </g>
+
+  <rect x="84" y="88" width="1432" height="824" rx="30" fill="none" stroke="url(#shine)" stroke-width="4"/>
+  <rect x="122" y="132" width="810" height="196" rx="24" fill="#0f2f3a" fill-opacity="0.72" stroke="#78c4cb" stroke-opacity="0.3"/>
+  <text x="162" y="210" fill="#e9fafb" font-size="84" font-family="'Space Grotesk', 'Arial Black', sans-serif" font-weight="700" letter-spacing="1">PrecisionAI</text>
+  <text x="164" y="268" fill="#9ddde1" font-size="34" font-family="'IBM Plex Sans', Arial, sans-serif" font-weight="600">Unified AI Platform for WGS, WES, Panels, RNA-seq, Methylation, and ACMG</text>
+
+  <g transform="translate(160,390)">
+    <rect x="0" y="0" width="380" height="210" rx="18" fill="#0b2934" fill-opacity="0.84" stroke="#89cfd5" stroke-opacity="0.3"/>
+    <text x="26" y="52" fill="#f3fdff" font-size="32" font-family="'Space Grotesk', sans-serif" font-weight="700">Variant Intelligence</text>
+    <text x="26" y="101" fill="#bde6ea" font-size="24" font-family="'IBM Plex Sans', sans-serif">AI triage, annotation, and evidence scoring</text>
+    <text x="26" y="145" fill="#f0c06d" font-size="23" font-family="'IBM Plex Sans', sans-serif" font-weight="600">WGS | WES | Panels</text>
+  </g>
+
+  <g transform="translate(610,390)">
+    <rect x="0" y="0" width="380" height="210" rx="18" fill="#0b2934" fill-opacity="0.84" stroke="#89cfd5" stroke-opacity="0.3"/>
+    <text x="26" y="52" fill="#f3fdff" font-size="32" font-family="'Space Grotesk', sans-serif" font-weight="700">Expression &amp; Epigenetics</text>
+    <text x="26" y="101" fill="#bde6ea" font-size="24" font-family="'IBM Plex Sans', sans-serif">RNA-seq and methylation signal extraction</text>
+    <text x="26" y="145" fill="#f0c06d" font-size="23" font-family="'IBM Plex Sans', sans-serif" font-weight="600">5mC | 5hmC | Fusion</text>
+  </g>
+
+  <g transform="translate(1060,390)">
+    <rect x="0" y="0" width="380" height="210" rx="18" fill="#0b2934" fill-opacity="0.84" stroke="#89cfd5" stroke-opacity="0.3"/>
+    <text x="26" y="52" fill="#f3fdff" font-size="32" font-family="'Space Grotesk', sans-serif" font-weight="700">Clinical Classification</text>
+    <text x="26" y="101" fill="#bde6ea" font-size="24" font-family="'IBM Plex Sans', sans-serif">ACMG-aligned interpretation with audit trail</text>
+    <text x="26" y="145" fill="#f0c06d" font-size="23" font-family="'IBM Plex Sans', sans-serif" font-weight="600">Report-Ready Outputs</text>
+  </g>
+
+  <g transform="translate(640,700)" filter="url(#softGlow)">
+    <rect x="0" y="0" width="320" height="140" rx="24" fill="url(#chip)"/>
+    <text x="52" y="86" fill="#fff2f7" font-size="58" font-family="'Space Grotesk', sans-serif" font-weight="700">AI</text>
+    <g stroke="#ffdce9" stroke-width="4" stroke-linecap="round">
+      <line x1="152" y1="30" x2="152" y2="-36"/>
+      <line x1="230" y1="30" x2="230" y2="-36"/>
+      <line x1="308" y1="30" x2="308" y2="-36"/>
+      <line x1="152" y1="110" x2="152" y2="176"/>
+      <line x1="230" y1="110" x2="230" y2="176"/>
+      <line x1="308" y1="110" x2="308" y2="176"/>
+      <line x1="20" y1="52" x2="-44" y2="52"/>
+      <line x1="20" y1="88" x2="-44" y2="88"/>
+    </g>
+  </g>
+</svg>

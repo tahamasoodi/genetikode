@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">OncoGene Hereditary</title>
+  <desc id="desc">Scientific thumbnail for OncoGene Hereditary germline risk testing.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b486f"/>
+      <stop offset="55%" stop-color="#0f6c95"/>
+      <stop offset="100%" stop-color="#07293f"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#d8eeff" stroke-opacity="0.12" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="dnaA" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7ddce4"/>
+      <stop offset="100%" stop-color="#f08a2f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="900" fill="url(#bg)"/>
+  <rect width="1400" height="900" fill="url(#grid)"/>
+  <circle cx="118" cy="126" r="150" fill="#ffffff" fill-opacity="0.07"/>
+  <circle cx="1240" cy="774" r="215" fill="#ffffff" fill-opacity="0.06"/>
+
+  <g transform="translate(90 90)">
+    <rect x="0" y="0" width="250" height="56" rx="28" fill="#147f86" fill-opacity="0.9"/>
+    <text x="27" y="38" fill="#e9ffff" font-size="31" font-family="'Space Grotesk', Arial, sans-serif" font-weight="700">ONCOGENE</text>
+  </g>
+
+  <text x="90" y="280" fill="#edf8ff" font-size="105" font-family="'Space Grotesk', Arial, sans-serif" font-weight="700">HEREDITARY</text>
+  <text x="94" y="352" fill="#d5ecfb" font-size="42" font-family="'IBM Plex Sans', Arial, sans-serif" font-weight="600">Germline DNA Testing for Inherited Cancer Risk</text>
+  <text x="94" y="408" fill="#c4dfef" font-size="32" font-family="'IBM Plex Sans', Arial, sans-serif">Risk stratification, family counseling, and surveillance planning</text>
+
+  <g transform="translate(805 98)">
+    <path d="M160 10 C280 96 282 220 160 305 C38 391 40 520 160 610" fill="none" stroke="url(#dnaA)" stroke-width="9" stroke-linecap="round"/>
+    <path d="M285 10 C165 96 163 220 285 305 C407 391 405 520 285 610" fill="none" stroke="#bbe5f6" stroke-width="9" stroke-linecap="round"/>
+    <g stroke="#ecfaff" stroke-opacity="0.85" stroke-width="4">
+      <line x1="176" y1="55" x2="269" y2="55"/>
+      <line x1="204" y1="118" x2="241" y2="118"/>
+      <line x1="169" y1="182" x2="275" y2="182"/>
+      <line x1="198" y1="246" x2="247" y2="246"/>
+      <line x1="174" y1="309" x2="272" y2="309"/>
+      <line x1="207" y1="374" x2="239" y2="374"/>
+      <line x1="173" y1="438" x2="273" y2="438"/>
+      <line x1="200" y1="502" x2="245" y2="502"/>
+      <line x1="178" y1="566" x2="266" y2="566"/>
+    </g>
+  </g>
+
+  <g transform="translate(90 502)">
+    <rect x="0" y="0" width="650" height="250" rx="26" fill="#081d2d" fill-opacity="0.52" stroke="#b5d8ef" stroke-opacity="0.44"/>
+    <g transform="translate(38 34)" fill="none" stroke="#eaf7ff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="52" cy="44" r="17"/>
+      <circle cx="128" cy="44" r="17"/>
+      <circle cx="90" cy="111" r="17"/>
+      <line x1="52" y1="61" x2="52" y2="90"/>
+      <line x1="128" y1="61" x2="128" y2="90"/>
+      <line x1="52" y1="90" x2="90" y2="111"/>
+      <line x1="128" y1="90" x2="90" y2="111"/>
+      <path d="M178 18 L230 18 L246 34 L246 80 C246 123 219 152 204 160 C189 152 162 123 162 80 L162 34 Z"/>
+      <path d="M193 53 C205 37 223 45 223 60 C223 88 189 96 189 122"/>
+      <line x1="190" y1="129" x2="190" y2="129"/>
+    </g>
+    <text x="252" y="90" fill="#edf8ff" font-size="35" font-family="'Space Grotesk', Arial, sans-serif" font-weight="700">Hereditary Risk Intelligence</text>
+    <text x="252" y="141" fill="#d7ebf9" font-size="27" font-family="'IBM Plex Sans', Arial, sans-serif">Profile key germline genes to identify inherited cancer risk.</text>
+    <text x="252" y="182" fill="#d7ebf9" font-size="27" font-family="'IBM Plex Sans', Arial, sans-serif">Enable prevention pathways and family-level screening plans.</text>
+  </g>
+</svg>
