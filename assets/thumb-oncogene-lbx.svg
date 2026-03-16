@@ -22,13 +22,13 @@
   <circle cx="1260" cy="130" r="210" fill="#ffffff" fill-opacity="0.08"/>
 
   <g transform="translate(90 90)">
-    <rect x="0" y="0" width="430" height="138" rx="34" fill="#147f86" fill-opacity="0.92"/>
-    <text x="24" y="62" fill="#eaffff" font-size="58" font-family="'Space Grotesk', Arial, sans-serif" font-weight="700">ONCOGENE</text>
-    <text x="24" y="112" fill="#def6ff" font-size="36" letter-spacing="7" font-family="'IBM Plex Sans', Arial, sans-serif" font-weight="700">LBX</text>
+    <rect x="0" y="0" width="620" height="220" rx="42" fill="#147f86" fill-opacity="0.92"/>
+    <text x="26" y="88" fill="#eaffff" font-size="78" font-family="'Space Grotesk', Arial, sans-serif" font-weight="700">ONCOGENE</text>
+    <text x="28" y="168" fill="#def6ff" font-size="52" letter-spacing="8" font-family="'IBM Plex Sans', Arial, sans-serif" font-weight="700">LBX</text>
   </g>
 
-  <text x="94" y="306" fill="#d3f3ff" font-size="42" font-family="'IBM Plex Sans', Arial, sans-serif" font-weight="600">Blood-Based DNA + RNA Profiling</text>
-  <text x="94" y="360" fill="#c4ebfb" font-size="32" font-family="'IBM Plex Sans', Arial, sans-serif">Non-invasive signal capture for dynamic monitoring</text>
+  <text x="94" y="390" fill="#d3f3ff" font-size="42" font-family="'IBM Plex Sans', Arial, sans-serif" font-weight="600">Blood-Based DNA + RNA Profiling</text>
+  <text x="94" y="444" fill="#c4ebfb" font-size="32" font-family="'IBM Plex Sans', Arial, sans-serif">Non-invasive signal capture for dynamic monitoring</text>
 
   <g transform="translate(805 98)">
     <path d="M160 10 C280 96 282 220 160 305 C38 391 40 520 160 610" fill="none" stroke="url(#dnaA)" stroke-width="9" stroke-linecap="round"/>
