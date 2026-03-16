@@ -389,6 +389,26 @@ h3 {
   letter-spacing: 0.01em;
 }
 
+.product-title {
+  display: flex;
+  align-items: baseline;
+  gap: 0.45rem;
+  text-transform: uppercase;
+}
+
+.product-brand {
+  font-size: 1.45rem;
+  letter-spacing: 0.02em;
+  color: #153943;
+}
+
+.product-variant {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #48646d;
+}
+
 .product-details {
   list-style: none;
   margin: 0.85rem 0 0;
