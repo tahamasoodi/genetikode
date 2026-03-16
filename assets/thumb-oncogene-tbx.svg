@@ -22,9 +22,9 @@
   <circle cx="1220" cy="760" r="250" fill="#ffffff" fill-opacity="0.06"/>
 
   <g transform="translate(90 90)">
-    <rect x="0" y="0" width="360" height="112" rx="30" fill="#f08a2f" fill-opacity="0.9"/>
-    <text x="24" y="50" fill="#fff6ee" font-size="45" font-family="'Space Grotesk', Arial, sans-serif" font-weight="700">ONCOGENE</text>
-    <text x="24" y="89" fill="#ffe6f3" font-size="28" letter-spacing="6" font-family="'IBM Plex Sans', Arial, sans-serif" font-weight="700">TBX</text>
+    <rect x="0" y="0" width="430" height="138" rx="34" fill="#f08a2f" fill-opacity="0.9"/>
+    <text x="24" y="62" fill="#fff6ee" font-size="58" font-family="'Space Grotesk', Arial, sans-serif" font-weight="700">ONCOGENE</text>
+    <text x="24" y="112" fill="#ffe6f3" font-size="36" letter-spacing="7" font-family="'IBM Plex Sans', Arial, sans-serif" font-weight="700">TBX</text>
   </g>
 
   <text x="94" y="306" fill="#f7d7e8" font-size="42" font-family="'IBM Plex Sans', Arial, sans-serif" font-weight="600">Tissue DNA + RNA Molecular Profiling</text>
